@@ -1,0 +1,125 @@
+Post ID,Upvotes,Title,Flair,Domain,Time Ago,Author,Comments
+2,7,How to best breakdown the levels of,autonomyDiscussion,self.aiengineering,2 days ago,BeneficialAd3800,5
+3,2,Is your team reviewing AI-generated code?,Discussion,self.aiengineering,3 days ago,Expensive_Art7174,4
+4,7,Single-Agent vs Multi-Agent Architectures: What Is the Current Production Standard for AI Applications?,Discussion,self.aiengineering,4 days ago,According_Value_6162,2
+5,3,OpenAI vs local,serverDiscussion,self.aiengineering,4 days ago,blue-brindle,3
+6,118,Working in AI for 8 Years Taught Me Why Both AI Doomers and Optimists Miss the Point.,Data,self.aiengineering,6 days ago,SignificanceFast2941,43
+7,3,Which AI solution providers actually help beyond PoCs?,Engineering,self.aiengineering,5 days ago,Embarrassed-Day-3504,0
+8,8,Ai has broken our velocity tracking - how is everyone else handling this?,Discussion,self.aiengineering,11 days ago,ATLswiftie,6
+9,32,"ML Engineer here, what’s our backup plan if GenAI triggers the dev job apocalypse?",Engineering,self.aiengineering,12 days ago,SignificanceFast2941,31
+10,23,Why LLMs are even needed when we can retrive chunks from Vector DB ?,Discussion,self.aiengineering,18 days ago,mohitsinghxd,12
+11,6,Are clients starting to underestimate software complexity because of AI?,Discussion,self.aiengineering,21 days ago,khizran143,8
+12,8,AI Isn’t Replacing Engineers. It’s Exposing Who Actually Understands Systems.,Discussion,self.aiengineering,22 days ago,ONEDAYVK,3
+13,5,Tips for making projects (git repositories) agent-friendly?,Engineering,self.aiengineering,26 days ago,Every_Strain_9551,2
+14,4,Where should the prompts be stored ?,Engineering,self.aiengineering,26 days ago,incidentjustice,3
+15,3,FP16 shaders in Linux with,chromeDiscussion,self.aiengineering,28 days ago,One-Excuse-4054,0
+16,5,"The more complex a workflow gets, the harder it becomes to",trustDiscussion,self.aiengineering,28 days ago,Upper_Permission_159,3
+17,1,Personalization of,AIDiscussion,self.aiengineering,1 month ago,cola2411,2
+18,2,VLA vs industry standard,approachesDiscussion,self.aiengineering,1 month ago,SoftwareOnly118,0
+19,5,hey guys! whats your laptop rn? influence me please!,Hardware,self.aiengineering,1 month ago,AffectionateForce419,8
+20,1,What’s a good laptop qualification for a student?,Hardware,self.aiengineering,1 month ago,Visual_Perception821,4
+21,7,Where should the source of truth live when AI agents write code?,Discussion,self.aiengineering,1 month ago,petroslamb,6
+22,2,No Marketing of Any Kind,AllowedAnnouncement,self.aiengineering,1 month ago,timfcrn,0
+23,11,Can AI ingest a course and later apply that knowledge to real projects?,Discussion,self.aiengineering,1 month ago,snap_drogon,6
+24,6,Standard nueral network vs transformer,basedDiscussion,self.aiengineering,2 months ago,Flat_Psychology8486,5
+25,7,How to approach self-pruning neural networks with learnable gates on CIFAR-10?,Discussion,self.aiengineering,2 months ago,Loose_Engineering517,3
+26,6,Here’s the best blueprint to ruin your LLM app.,Other,self.aiengineering,2 months ago,Cold_Bass3981,3
+27,8,looking for a small model for multi-language text,classificationDiscussion,self.aiengineering,2 months ago,Dalleuh,9
+28,5,What strategies are actually working for enforcing strict JSON outputs in production LLM pipelines?,Engineering,self.aiengineering,2 months ago,ArshadIqbalOfficial,7
+29,2,Has anyone found a reliable way to enforce strict JSON outputs at scale?,Engineering,self.aiengineering,2 months ago,ArshadIqbalOfficial,4
+30,8,I pointed an AI pentester at a vibe-coded quiz app and found 22 vulnerabilities the dev didn't know about.,Engineering,self.aiengineering,2 months ago,Away_Replacement8719,4
+31,4,Need help ...,Other,self.aiengineering,2 months ago,the_realkumar,0
+32,3,Any existing solutions to generate SVG icons at scale?,Engineering,self.aiengineering,2 months ago,barbie-in-a-bubble,0
+33,3,Foundry,RAGDiscussion,self.aiengineering,2 months ago,PsychologicalTie9068,4
+34,11,Claude Code doesn't rely on vector search for memory handling. Is it the way to go?,Engineering,self.aiengineering,2 months ago,regular-tech-guy,5
+35,6,AI image detection models?,Engineering,self.aiengineering,2 months ago,Manas1810,5
+36,11,,LangchainDiscussion,self.aiengineering,2 months ago,Ok-Raspberry-5333,6
+37,3,What science and math behind AI video generation?,Discussion,self.aiengineering,2 months ago,SignificantRemote169,3
+38,5,"Chunking with LLM! Expensive, but better!?",Discussion,self.aiengineering,2 months ago,MagicMagnada,12
+39,1,Fine tuning learning ai,modelsDiscussion,self.aiengineering,2 months ago,VenkadeshKumar,7
+40,0,Facing the codebook collapse problem in custom TTS,pipelineDiscussion,self.aiengineering,2 months ago,Scary_Review_7331,0
+41,1,Open Claw and API key $$,Discussion,self.aiengineering,2 months ago,Then-Disk-5079,3
+42,5,Social Service project with AI for Rural,CommunityEngineering,self.aiengineering,2 months ago,oscar_96vasa,3
+43,0,"OpenClaw + ChatGPT OAuth (openai-codex) — hitting rate limits, what are the actual limits?",Discussion,self.aiengineering,2 months ago,Then-Disk-5079,0
+44,5,Pricing a Multi-Agent System / Project milestones.,Discussion,self.aiengineering,3 months ago,Logangster_111,4
+45,8,AI or Just Basic Attention?,Humor,i.redd.it,3 months ago,execdecisions,4
+46,6,How are you enforcing JSON/Consistently getting formatted JSON?,Engineering,self.aiengineering,3 months ago,Word-Word-3Numbers,10
+47,3,Good local code assistant AI to run with i7 10700 + RTX 3070 + 32GB RAM?,Discussion,self.aiengineering,3 months ago,SignificanceFlat1460,4
+48,2,,HelpDiscussion,self.aiengineering,3 months ago,Livid-Manufacturer47,2
+49,7,OpenCode or Claude,CodeDiscussion,self.aiengineering,3 months ago,notsarthaxx,7
+50,5,Prevent agent from reading env,variablesDiscussion,self.aiengineering,3 months ago,create_urself,6
+51,17,Best AI Memory,PlatformsDiscussion,self.aiengineering,3 months ago,Ok_Tart_2341,19
+52,37,The Actual State of AI Engineering In 2026,Highlight,self.aiengineering,3 months ago,sqlinsix,18
+53,4,,HelpDiscussion,self.aiengineering,3 months ago,WideFalcon768,5
+54,7,How do you actually evaluate LLMs in real product setting?,Discussion,self.aiengineering,3 months ago,ComfortableMassive91,0
+55,5,Al Agent Harness - Genie gives you Al inside Databricks. I built the reverse: Databricks inside Al and I want to share,WhyDiscussion,self.aiengineering,3 months ago,aienginner,3
+56,6,Agent for YAML,configurationDiscussion,self.aiengineering,4 months ago,svendfe,3
+57,2,consiglio compenso,orarioDiscussion,self.aiengineering,4 months ago,After_Somewhere_2254,0
+58,3,Interview with an AI,EngineerDiscussion,self.aiengineering,4 months ago,After_Pollution7315,0
+59,11,Let's disucss long-term memory for AI-Agents.,Discussion,self.aiengineering,4 months ago,Bubbly_Run_2349,10
+60,1,HOW DO I BUILD AN AI AGENCY IN NIGERIA?,Discussion,self.aiengineering,4 months ago,Prize_Reflection_786,3
+61,0,Why prompt-based controls break down at execution time in autonomous,agentsDiscussion,self.aiengineering,4 months ago,IllustratorNo5375,10
+62,1,"If You Had 6 Months to Build an AI Project, What Would You Make?",Discussion,self.aiengineering,4 months ago,ArshadIqbalOfficial,2
+63,3,Help needed training ai.,Discussion,self.aiengineering,4 months ago,somecrazydays,3
+64,14,Made a Telegram bot that can’t do anything until it decides STOP / HOLD / ALLOW,firstDiscussion,i.redd.it,4 months ago,Echo_OS,14
+65,2,,LostDiscussion,self.aiengineering,4 months ago,zezoo4,0
+66,11,OpenCode vs Cursor vs,ClaudeCodeDiscussion,self.aiengineering,4 months ago,notsarthaxx,3
+67,7,Are these Senior/Lead AI Engineer KPIs realistic or a trap?,Discussion,self.aiengineering,4 months ago,normanhwrd,0
+68,8,SaaS Tool Evaporates - Takeaways From A,PresentationEngineering,self.aiengineering,4 months ago,execdecisions,5
+69,4,Is adding a confidence output stupid?,Discussion,self.aiengineering,4 months ago,Kayo4life,2
+70,36,Stop writing prompts. Start building context. Here's why your results are inconsistent.,Engineering,self.aiengineering,4 months ago,Critical-Elephant630,2
+71,1,Is macbook good for Backend and AI,integrationDiscussion,self.aiengineering,4 months ago,Subject-Cut-4595,2
+72,15,Resource for Learning,AIDiscussion,self.aiengineering,4 months ago,Prestigious_Talk3881,0
+73,5,Laptop,recommendationHardware,self.aiengineering,4 months ago,Subject-Cut-4595,2
+74,19,Built several RAG projects and basic agents but struggling with making them production-ready - what am I missing?,Discussion,self.aiengineering,4 months ago,CreditOk5063,4
+75,13,Project,IdeasDiscussion,self.aiengineering,4 months ago,notsarthaxx,2
+76,6,"Building a tool to find the ""Effective Reasoning Limit"" for LLMs (Context Cliff). Is this a solved problem?",Discussion,self.aiengineering,4 months ago,AIyer002,0
+77,13,RESUME,HELPDiscussion,i.redd.it,4 months ago,notsarthaxx,0
+78,8,What breaks first in LLM cost estimates at production scale?,Discussion,self.aiengineering,4 months ago,Successful-Ask736,3
+79,13,AI Insight /,ShiftDiscussion,self.aiengineering,4 months ago,nuvintaillc,2
+80,12,"Confused between AI Engineer path vs building AI SaaS, need",guidanceDiscussion,self.aiengineering,4 months ago,IllustriousAd2262,0
+81,1,What are some fields of AI work that are actually interesting?,Discussion,self.aiengineering,4 months ago,MKKGFR,0
+82,5,"Once an AI agent can see production systems, prompt engineering stops being the hard",partDiscussion,self.aiengineering,4 months ago,Useful-Process9033,0
+83,14,When shouldn’t you build AI agents as full web apps?,Discussion,self.aiengineering,4 months ago,Strong_Worker4090,4
+84,1,EmoCore – A deterministic runtime governor to enforce hard behavioral bounds in autonomous,agentsDiscussion,self.aiengineering,5 months ago,Fit-Carpenter2343,0
+85,4,Best way to learn AI engineering from scratch? Feeling stuck between two,pathsDiscussion,self.aiengineering,5 months ago,mohnnd6,0
+86,0,,TeachersDiscussion,self.aiengineering,5 months ago,Reasonable_Use3405,0
+87,5,What is Entry Level Role in Ai& ML career.,Discussion,self.aiengineering,5 months ago,Even-Championship-71,0
+88,8,Need help: Technical Interview for Jr AI,EngineerOther,self.aiengineering,5 months ago,regexslayer,0
+89,0,"Branch-only experiment: a full support_triage module that lives outside core OrKa, with custom agent types and traceable",runsEngineering,i.redd.it,5 months ago,marcosomma-OrKA,0
+90,5,"Cursor Al is great, but the cost is hard to afford as a research student looking for alternatives or",adviceDiscussion,self.aiengineering,5 months ago,Electronic_Budget814,6
+91,4,How much Mathematics is required in AI Engineering?,Discussion,self.aiengineering,5 months ago,NimbleCoder,0
+92,0,Sanity-check a healthcare AI startup my friend is,buildingDiscussion,self.aiengineering,5 months ago,Natural_Sorbet_3466,3
+93,9,AI generated data limiting,AIDiscussion,self.aiengineering,5 months ago,dhia-00,4
+94,5,👋 Welcome to r/AIEngineeringCareerAnnouncement (),,,5 months ago,timfcrn,0
+95,1,Test this system prompt and provide volunteer feedback if,interestedEngineering,self.aiengineering,5 months ago,xb1-Skyrim-mods-fan,0
+96,9,Looking for some webinars / events regarding AI,engineeringEngineering,self.aiengineering,5 months ago,prashant_desai_0401,0
+97,1,From 3d to Ai,engineeringDiscussion,self.aiengineering,5 months ago,wtfisthis_9999,0
+98,8,Node.js is enough for AI Engineering?,Discussion,self.aiengineering,5 months ago,Zestyclose-Band-7586,0
+99,2,How do people here move ML work from notebooks to real usage?,Discussion,self.aiengineering,5 months ago,Playful-Statement555,0
+100,2,Anyone interested in a small ML side-project study group in Bangalore?,Engineering,self.aiengineering,5 months ago,Playful-Statement555,0
+101,2,Career transition - seeking advice!,Discussion,self.aiengineering,5 months ago,Advanced-Park1031,2
+102,4,Software Engineer (Gen Ai role),prepDiscussion,self.aiengineering,5 months ago,General-Paramedic-42,0
+103,4,Could u help me become an AI engineer?,Engineering,self.aiengineering,5 months ago,wasabi1473,2
+104,2,How do developers handle API key security when building LLM-powered apps without maintaining a custom backend?,Discussion,self.aiengineering,5 months ago,Mediocre_Permit_3372,0
+105,2,5 layer architecture to safely connect agents to your,databasesData,i.redd.it,5 months ago,Better-Department662,0
+106,13,How do you judge if your agent is good at using tools?,Discussion,self.aiengineering,6 months ago,Kortopi-98,7
+107,2,Is too much readily available technology hampering growth?,Discussion,self.aiengineering,6 months ago,DracoEmperor2003,2
+108,1,5:50,,,,,0
+109,1,Best resources for Generative AI system design,interviewsDiscussion,self.aiengineering,6 months ago,[deleted],0
+110,1,What does a day-to-day job look like for an AI Engineer? (10 yrs Full-Stack Dev looking to switch),Discussion,self.aiengineering,6 months ago,vibe_mismatch,0
+111,6,Building my own web search tool for a RAG app (Python newbie) - looking for,guidanceDiscussion,self.aiengineering,6 months ago,Big_Barracuda_6753,2
+112,10,Building on premise AI chat for my city,hallDiscussion,self.aiengineering,6 months ago,saylekxd,5
+113,6,Career,AdviceDiscussion,self.aiengineering,6 months ago,TheLobinator,0
+114,2,Starting Out with On-Prem AI: Any Professionals Using Dell PowerEdge/NVIDIA for LLMs?,Discussion,self.aiengineering,6 months ago,Worth_Rabbit_6262,3
+115,1,What real-world AI project should I build (3rd year B.Tech) to land an AI Engineer job as a fresher?,Discussion,self.aiengineering,6 months ago,[deleted],11
+116,0,Is it possible to become an AI engineer without a college degree?,Discussion,self.aiengineering,6 months ago,Additional_Orange859,23
+117,17,Careers in AI Engineering with no programming background?,Discussion,self.aiengineering,6 months ago,TheGloriousMrT,25
+118,7,I built a tiny “Intent Router” to keep my multi-agent workflows from going off the,railsEngineering,self.aiengineering,6 months ago,balachandarmanikanda,5
+119,0,Hydra:the multi-head AI trying to outsmart cyber,attacksDiscussion,self.aiengineering,6 months ago,[deleted],0
+120,0,"""Built AI materials lab validated against 140K real materials - here's what I learned""",Discussion,self.aiengineering,6 months ago,Ashamed_Count_2836,0
+121,128,0:41,,,,,6
+122,4,Currently dependent on ChatGPT.,Discussion,self.aiengineering,6 months ago,[deleted],9
+123,4,LLMs Evaluation and Usage Monitoring: any solution?,Discussion,self.aiengineering,6 months ago,Gemiiny77,6
+124,5,Multi-tenant AI Customer Support Agent (with ticketing integration),Engineering,self.aiengineering,7 months ago,Electronic-Film-5749,3
+125,23,"About AI Engineering, Role and",TasksDiscussion,self.aiengineering,7 months ago,an4k1nskyw4lk3r,5
