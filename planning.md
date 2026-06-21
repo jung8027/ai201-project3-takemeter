@@ -47,6 +47,25 @@ This could be:
 
 ---
 
+### Documented Difficult Examples (from annotation)
+
+**Example 1:** *"Could u help me become an AI engineer?"* (Flair: `Engineering` → `Project_Development`)
+- Could be `Discussion_General` — colloquial phrasing "help me become" is a career question with no artifact named
+- Could be `Project_Development` — Flair=Engineering maps to this category, implying a technical/building context
+- **Decision:** Kept `Project_Development` (flair-derived). The flair is the primary signal when the title is ambiguous. However, this is likely annotation noise — the content reads as a career discussion post regardless of flair.
+
+**Example 2:** *"Any existing solutions to generate SVG icons at scale?"* (Flair: `Engineering` → `Project_Development`)
+- Could be `Discussion_General` — "any existing solutions" phrasing is a tool-recommendation request, not a project description
+- Could be `Project_Development` — the Engineering flair and project-specific goal (SVG generation at scale) suggest the author is building something concrete
+- **Decision:** Kept `Project_Development` (flair-derived). The Engineering flair signals technical implementation intent. The scale requirement ("at scale") implies an active project need rather than general curiosity.
+
+**Example 3:** *"looking for a small model for multi-language text classification"* (Flair: `Discussion` → `Discussion_General`)
+- Could be `Project_Development` — describes a specific technical requirement (multi-language classification) that implies an active implementation project
+- Could be `Discussion_General` — could also be someone exploring options without a specific project underway; Flair=Discussion maps to this category
+- **Decision:** Kept `Discussion_General` (flair-derived). Without evidence of an active artifact, the post reads as an information-gathering question. Flagged as borderline — a post body would resolve this.
+
+---
+
 ## Data Collection Plan
 
 **Source:** Reddit posts from r/aiengineering collected via the public Reddit API. I will use post titles as the primary text feature — titles are short, self-contained, and carry the post's intent without requiring the body.
@@ -55,7 +74,9 @@ This could be:
 
 **Labeling approach:** Use Reddit post flairs as proxy labels, then consolidate flair variants into the two categories via a remapping table. The subreddit uses flairs like "Discussion", "Engineering", "RAGDiscussion", "Data", etc. I will create a full mapping from each observed flair to one of the two labels. Posts with unmapped or missing flairs will default to `Discussion_General` unless manually reviewed.
 
-**If a label is underrepresented after 200 examples:** If `Project_Development` is below 30% of the dataset after the initial collection pass, I will scrape additional posts specifically filtered by "Engineering" and technical flairs (RAGDiscussion, LangchainDiscussion, Data) until the minority class reaches at least 60 examples. I will not reduce the `Discussion_General` count — the goal is to add more minority examples, not to downsample the majority.
+**If a label is underrepresented after 200 examples:** If `Project_Development` is below 30% of the dataset after the initial collection pass, I will scrape additional posts specifically filtered by "Engineering" and technical flairs until the minority class reaches at least 60 examples.
+
+**Actual outcome:** After exhausting all available public posts from r/aiengineering, the final dataset contains 276 examples with `Discussion_General` at 85.9% (237) and `Project_Development` at 14.1% (39). No further posts could be extracted — the subreddit's natural flair distribution is heavily skewed toward Discussion. This imbalance is a genuine community-level constraint, not a collection shortcut. It directly contributed to the model learning a majority-class heuristic (0% recall on `Project_Development`) and is documented as a key finding in the evaluation report.
 
 **Expected challenges:**
 - Short titles (1–5 words) that lack enough signal

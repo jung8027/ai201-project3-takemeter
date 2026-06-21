@@ -1,8 +1,8 @@
 {
-  "baseline_accuracy": 0.6316,
-  "finetuned_accuracy": 0.6842,
-  "improvement": 0.0526,
-  "test_set_size": 19,
+  "baseline_accuracy": 0.619,
+  "finetuned_accuracy": 0.8571,
+  "improvement": 0.2381,
+  "test_set_size": 42,
   "label_map": {
     "Discussion_General": 0,
     "Project_Development": 1
