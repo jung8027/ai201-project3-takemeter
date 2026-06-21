@@ -51,9 +51,11 @@ This could be:
 
 **Source:** Reddit posts from r/aiengineering collected via the public Reddit API. I will use post titles as the primary text feature — titles are short, self-contained, and carry the post's intent without requiring the body.
 
-**Volume target:** 200+ labeled examples, aiming for at least 30% minority class (Project_Development).
+**Volume target:** 200+ labeled examples. Per-label target: at least 60 `Project_Development` (≥ 30% of total) and the remainder `Discussion_General`.
 
 **Labeling approach:** Use Reddit post flairs as proxy labels, then consolidate flair variants into the two categories via a remapping table. The subreddit uses flairs like "Discussion", "Engineering", "RAGDiscussion", "Data", etc. I will create a full mapping from each observed flair to one of the two labels. Posts with unmapped or missing flairs will default to `Discussion_General` unless manually reviewed.
+
+**If a label is underrepresented after 200 examples:** If `Project_Development` is below 30% of the dataset after the initial collection pass, I will scrape additional posts specifically filtered by "Engineering" and technical flairs (RAGDiscussion, LangchainDiscussion, Data) until the minority class reaches at least 60 examples. I will not reduce the `Discussion_General` count — the goal is to add more minority examples, not to downsample the majority.
 
 **Expected challenges:**
 - Short titles (1–5 words) that lack enough signal
