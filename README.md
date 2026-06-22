@@ -62,6 +62,8 @@ The dataset is heavily class-imbalanced: Discussion_General posts are 6.1× more
 
 **Base model:** `distilbert-base-uncased` — a lightweight transformer (66M parameters) that fine-tunes effectively on small classification datasets.
 
+**Training platform:** Google Colab
+
 **Training setup:**
 
 | Hyperparameter | Value |
